@@ -73,3 +73,8 @@ ExcelLink.ExcelBinding.Bind(cell, personA, "Address.Streetname", BindingMode.Two
 - support (named) cell ranges on sheets
 - get size of ranges
 - check COM cleanup
+
+# License
+Distributed under MIT license.
+
+Copyright 2015 Sander Cox / Parallel Dimension
