@@ -87,21 +87,6 @@ namespace ExcelLink
                 throw new System.Exception("Could not open Excel with the file!");
             }
 
-            //Excel.Worksheet xlSheet = xlWorkBook.Sheets[1];
-            //Excel.Range xlRange = xlSheet.Cells[1, 2];
-            //xlSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
-            //Binding b = new Binding("Value2");
-            //b.Source = xlRange;
-            //b.Mode = BindingMode.TwoWay;
-            //excelFirstname.SetBinding(TextBox.TextProperty, b);
-            //xlApp.ScreenUpdating = true;
-            //xlApp.Visible = true;
-
-            //System.Runtime.InteropServices.Marshal.ReleaseComObject(xlRange);
-            //System.Runtime.InteropServices.Marshal.ReleaseComObject(xlSheet);
-            //System.Runtime.InteropServices.Marshal.ReleaseComObject(xlWorkBook);
-            //System.Runtime.InteropServices.Marshal.ReleaseComObject(xlApp);
-
             ShowWorkbook(makeVisible);
         }
 

@@ -120,7 +120,7 @@ namespace ExcelLink
         internal void UpdateCells(Excel.Range updateRange)
         {
             // row / columns of the range are offset
-            Console.WriteLine("Updating cells for " + this.Name);
+            //Console.WriteLine("Updating cells for " + this.Name);
 
             for (int rowOffset = 0; rowOffset < updateRange.Rows.Count; rowOffset++)
             {
